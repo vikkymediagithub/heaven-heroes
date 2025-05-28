@@ -1,9 +1,27 @@
-import React from 'react'
+// "use client";
+// import { useState } from "react";
+// import LandingPage from "@/components/LandingPage";
+// import GameScreen from "@/components/GameScreen";
 
-const page = () => {
-  return (
-    <div className='bg-red-500 h-screen w-screen text-5xl text-white flex justify-center items-center'>page</div>
-  )
+// export default function Home() {
+//   const [startGame, setStartGame] = useState(false);
+
+//   return (
+//     <>
+//       {startGame ? (
+//         <GameScreen />
+//       ) : (
+//         <LandingPage onStart={() => setStartGame(true)} />
+//       )}
+//     </>
+//   );
+// }
+
+import LandingPage from "@/components/LandingPage";
+
+export default function Home() {
+  return <LandingPage />;
 }
 
-export default page
+
+
