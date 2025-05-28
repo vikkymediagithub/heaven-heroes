@@ -17,11 +17,18 @@
 //   );
 // }
 
-import LandingPage from "@/components/LandingPage";
 
-export default function Home() {
-  return <LandingPage />;
+
+// import LandingPage from "@/components/LandingPage";
+
+// export default function Home() {
+//   return <LandingPage />;
+// }
+
+
+
+import IntroVideo from "@/components/IntroVideo";
+
+export default function HomePage() {
+  return <IntroVideo />;
 }
-
-
-
